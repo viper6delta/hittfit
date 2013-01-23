@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+body {background-color: #696969;border-top: 40px solid black;margin-top: 0;margin-left: 0;margin-right: 0;}
+body {border-bottom: 200px solid black;}
+.nav {position:absolute;top:-60px;left:100px;}
+.nav ul {list-style-type: none; overflow: hidden;}
+.nav li {float: left;}
+.nav a:link,a:visited {display:block;width:120px;color:#fff;background-color: #000;text-align:center;padding:5px;text-decoration:none;text-transform: uppercase;}
+.nav a:hover,a:active {color:red;}
+.hc {width:1100px; margin:auto;margin-top: 10px;}
+.container {width:1100px;margin:auto;margin-top: 150px;}
+.logo {position:absolute;background-image: url(logodetail.png);width:125px;height:115px;left:-30px;display: block;float:left;z-index: 0;}
+
+
+
